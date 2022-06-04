@@ -8,7 +8,7 @@ import { SiAdobeindesign } from "react-icons/si";
 const Qualifications2 = () => {
   return (
     <div id="qualifications2">
-      <span className="quali-text">GRAPHIC DESIGN PROJECTS</span>
+      <span className="quali-text">GRAPHIC DESIGN</span>
       <div className="qualifications-container">
         <div className="qualification">
           <div className="content illustrator"> </div>
