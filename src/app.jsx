@@ -9,13 +9,13 @@ import Projects1 from "./components/projects1/projects1";
 import Projects2 from "./components/projects2/projects2";
 import Footer from "./components/footer/footer";
 import React from 'react';
+import Music from './components/music/music';
 
 function WebContent() {
   return (
     <>
       <div className="bg-circle1"></div>
       <div className="bg-circle2"></div>
-      
       <Header />
       <Navbar />
       <Home />
@@ -25,6 +25,7 @@ function WebContent() {
       <Projects2 />
       <Contact />
       <Footer />
+      <Music />
     </>
   );
 }
