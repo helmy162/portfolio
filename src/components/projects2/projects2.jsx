@@ -40,22 +40,25 @@ const Projects2 = () => {
           </a>
           <a href="https://plebits.com/" className="contact-member2">
               <span>Website</span>
-            </a>
+          </a>
         </div>
       </div>
 
       <div className="member member-3">
-        <div className="member-img"></div>
+        <div className="member-img3"></div>
         <div className="member-info">
-          <h1 className="name">CCChrys</h1>
-          <h3 className="position">Another Leader Again</h3>
+          <h1 className="name">Turbosmurfs Logo and Media Posts</h1>
+          <h3 className="position">turbosmurfs.gg</h3>
           <h4 className="about">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
             maiores harum laborum vero recusandae? Cumque nam facere aspernatur
             autem eius!
           </h4>
-          <a href="#contact" className="contact-member">
-            <span>contact</span>
+          <a href="https://www.behance.net/gallery/145260459/Turbosmurfs" className="contact-member">
+            <span>Behance</span>
+          </a>
+          <a href="https://turbosmurfs.gg/" className="contact-member2">
+              <span>Website</span>
           </a>
         </div>
       </div>

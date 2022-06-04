@@ -42,8 +42,18 @@
 
 
 .members-container .member .member-img1:hover {
-transition: 1s;
-transform: scale(1.2);
+  transition: 1s;
+  transform: scale(1.2);
+}
+
+.members-container .member .member-img2:hover {
+  transition: 1s;
+  transform: scale(1.2);
+}
+
+.members-container .member .member-img3:hover {
+  transition: 1s;
+  transform: scale(1.2);
 }
 
 
@@ -54,6 +64,16 @@ transform: scale(1.2);
   border-radius: 40px;
   background: rgb(5, 7, 37) url(../props/plebits.jpg) no-repeat;
   background-size: cover ;
+  background-position: center;
+  border: 2px solid var(--color-sec-light);
+}
+
+.members-container .member .member-img3 {
+  height: 300px;
+  width: 300px;
+  border-radius: 40px;
+  background: rgb(5, 7, 37) url(../props/turbo.png) no-repeat;
+  background-size: 80% ;
   background-position: center;
   border: 2px solid var(--color-sec-light);
 }

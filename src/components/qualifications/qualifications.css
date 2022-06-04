@@ -52,8 +52,8 @@
   color: var(--first-color);
 }
 
-.skills__html {
-  width: 85.5%;
+/* .skills__html {
+  width: 0%;
 }
 
 .skills__css {
@@ -70,6 +70,10 @@
 
 .skills__react {
   width: 67.5%;
+} */
+
+.skills__bar {
+  width: 0%;
 }
 
 .quali-text {
@@ -101,6 +105,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  z-index: 1;
 }
 
 .qualifications-container .qualification .content {
@@ -123,30 +128,55 @@
   background-position: center;
   background-size: 90%;
 }
+.qualifications-container .qualification .content.html:hover ~ .skills__html{
+  transition: 1s;
+  width: 85.5%;
+}
+
 .qualifications-container .qualification .content.css {
   background: rgba(255, 255, 255, 0.103) url(../props/css.png) no-repeat;
   background-position: center;
   background-size: cover;
   background-size: 90%;
 }
+.qualifications-container .qualification .content.css:hover ~ .skills__css{
+  transition: 1s;
+  width: 81%;
+}
+
 .qualifications-container .qualification .content.javascript {
   background: rgba(255, 255, 255, 0.103) url(../props/js.png) no-repeat;
   background-position: center;
   background-size: cover;
   background-size: 90%;
 }
+.qualifications-container .qualification .content.javascript:hover ~ .skills__javascript{
+  transition: 1s;
+  width: 72%;
+}
+
 .qualifications-container .qualification .content.bootstrap {
   background: rgba(255, 255, 255, 0.103) url(../props/bootstrap.png) no-repeat;
   background-position: center;
   background-size: cover;
   background-size: 90%;
 }
+.qualifications-container .qualification .content.bootstrap:hover ~ .skills__bootstrap{
+  transition: 1s;
+  width: 72%;
+}
+
 .qualifications-container .qualification .content.react {
   background: rgba(255, 255, 255, 0.103) url(../props/react.png) no-repeat;
   background-position: center;
   background-size: cover;
   background-size: 90%;
 }
+.qualifications-container .qualification .content.react:hover ~ .skills__react{
+  transition: 1s;
+  width: 67.5%;
+}
+
 .qualifications-container .qualification .content.c-plus-plus {
   background: rgba(255, 255, 255, 0.103) url(../props/c-plus-plus.png) no-repeat;
   background-position: center;

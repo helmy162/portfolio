@@ -9,7 +9,6 @@
 
 .button-container .btn {
   height: 80px;
-  width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -123,7 +122,6 @@
 
   .button-container .btn {
     height: 85px;
-    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,7 +145,6 @@
 
   .button-container .btn {
     height: 75px;
-    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,7 +169,6 @@
 
   .button-container .btn {
     height: 75px;
-    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
