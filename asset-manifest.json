@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fe1b00bd.css",
-    "main.js": "/portfolio/static/js/main.3cf1d658.js",
+    "main.css": "/portfolio/static/css/main.6e584ff4.css",
+    "main.js": "/portfolio/static/js/main.bbc68c6c.js",
     "static/media/img2.JPG": "/portfolio/static/media/img2.a186b12ff38dcd7bb953.JPG",
-    "static/media/plebits.jpg": "/portfolio/static/media/plebits.f74a132cfb801e4a28a2.jpg",
+    "static/media/plebits.jpg": "/portfolio/static/media/plebits.83efc7debe5d5a7e71da.jpg",
     "static/media/illustrator.png": "/portfolio/static/media/illustrator.5bd1e15b8221d5546539.png",
     "static/media/indesign.png": "/portfolio/static/media/indesign.f01432c3b3e4c9956519.png",
     "static/media/Cavigrum.jpg": "/portfolio/static/media/Cavigrum.2fa2b52c5b3d963dd902.jpg",
@@ -18,11 +18,11 @@
     "static/media/html.png": "/portfolio/static/media/html.b40d5a08aa4b2413a2f0.png",
     "static/media/js.png": "/portfolio/static/media/js.f3b4181878b042425a38.png",
     "index.html": "/portfolio/index.html",
-    "main.fe1b00bd.css.map": "/portfolio/static/css/main.fe1b00bd.css.map",
-    "main.3cf1d658.js.map": "/portfolio/static/js/main.3cf1d658.js.map"
+    "main.6e584ff4.css.map": "/portfolio/static/css/main.6e584ff4.css.map",
+    "main.bbc68c6c.js.map": "/portfolio/static/js/main.bbc68c6c.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe1b00bd.css",
-    "static/js/main.3cf1d658.js"
+    "static/css/main.6e584ff4.css",
+    "static/js/main.bbc68c6c.js"
   ]
 }
