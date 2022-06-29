@@ -38,21 +38,19 @@
   background-size: cover;
   background-position: center;
   border: 2px solid var(--color-sec-light);
+  transition: 1500ms ;
 }
 
 
 .members-container .member .member-img1:hover {
-  transition: 1s;
   transform: scale(1.2);
 }
 
 .members-container .member .member-img2:hover {
-  transition: 1s;
   transform: scale(1.2);
 }
 
 .members-container .member .member-img3:hover {
-  transition: 1s;
   transform: scale(1.2);
 }
 
@@ -66,6 +64,7 @@
   background-size: cover ;
   background-position: center;
   border: 2px solid var(--color-sec-light);
+  transition: 1500ms ;
 }
 
 .members-container .member .member-img3 {
@@ -76,6 +75,7 @@
   background-size: 80% ;
   background-position: center;
   border: 2px solid var(--color-sec-light);
+  transition: 1500ms ;
 }
 
 .members-container .member .member-info2 {
@@ -137,7 +137,11 @@
   background-color: transparent;
   border: 2px solid var(--color-sec-light);
 }
-
+@media (min-width: 992px) and (max-width: 1200px) {
+  .member-info2 {
+    margin-left: 50px;
+  }
+}
 @media (max-width: 820px) {
   #hide-for-lg{
     display: flex;
@@ -193,8 +197,8 @@
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background: rgb(5, 7, 37) url(../props/turbo.png);
-    background-size: cover;
+    background: rgb(5, 7, 37) , url(../props/turbo.png) ;
+    background-size: 80%;
     background-position: center;
     border: 2px solid var(--color-sec-light);
   }
@@ -290,7 +294,7 @@
     width: 70px;
     border-radius: 50%;
     background: rgb(5, 7, 37) url(../props/turbo.png) no-repeat;
-    background-size: contain;
+    background-size: 80%;
     background-position: center;
     border: 2px solid var(--color-sec-light);
   }
@@ -307,7 +311,7 @@
   }
 
   .members-container .member .member-info2 .name {
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 500;
     letter-spacing: 2px;
   }
@@ -386,7 +390,7 @@
     width: 70px;
     border-radius: 50%;
     background: rgb(5, 7, 37) url(../props/turbo.png) no-repeat;
-    background-size: contain;
+    background-size: 80%;
     background-position: center;
     border: 2px solid var(--color-sec-light);
   }
@@ -403,7 +407,7 @@
   }
 
   .members-container .member .member-info2 .name {
-    font-size: 40px;
+    font-size: 22px;
     font-weight: 500;
     letter-spacing: 2px;
   }
@@ -483,7 +487,7 @@
     width: 70px;
     border-radius: 50%;
     background: rgb(5, 7, 37) url(../props/turbo.png) no-repeat;
-    background-size: contain;
+    background-size: 80%;
     background-position: center;
     border: 2px solid var(--color-sec-light);
   }
@@ -500,7 +504,7 @@
   }
 
   .members-container .member .member-info2 .name {
-    font-size: 40px;
+    font-size: 22px;
     font-weight: 500;
     letter-spacing: 2px;
   }
@@ -581,7 +585,7 @@
     width: 70px;
     border-radius: 50%;
     background: rgb(5, 7, 37) url(../props/turbo.png) no-repeat;
-    background-size: contain;
+    background-size: 80%;
     background-position: center;
     border: 2px solid var(--color-sec-light);
   }
@@ -598,7 +602,7 @@
   }
 
   .members-container .member .member-info2 .name {
-    font-size: 40px;
+    font-size: 22px;
     font-weight: 500;
     letter-spacing: 2px;
   }
