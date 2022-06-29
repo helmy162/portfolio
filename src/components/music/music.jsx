@@ -11,7 +11,7 @@ export default class extends Component {
   render() {
     return (
       <div>
-        <audio className="audio-element" id="myaudio">
+        <audio className="audio-element" id="myaudio" autoPlay loop>
           <source src="https://sndup.net/n4mj/d"></source>
         </audio>
       </div>
