@@ -1,5 +1,5 @@
 import './home.css';
-import img from '../props/img2.jpg';
+import img from '../props/img2.JPG';
 import Buttons from '../button/button';
 import { BsMouse } from 'react-icons/bs';
 import React from 'react';
@@ -8,7 +8,7 @@ function Home() {
   return (
     <div id='home' className='container home-container'>
       <div className='logo test1'>
-        <div className='hover-show'>
+        <div className='hover-show active'>
           <span className='circle'></span>  
           <span className='circle'></span>
           <span className='circle'></span>
@@ -17,7 +17,7 @@ function Home() {
           <span className='circle'></span>
           <span className='circle'></span>
           <span className='circle'></span>
-          <div class="text-box">
+          {/* <div class="text-box">
             <div className='test3'>C</div>
             <div className='test3'>L</div>
             <div className='test3'>I</div>
@@ -27,7 +27,7 @@ function Home() {
             <br></br>
             <div className='test3'>M</div>
             <div className='test3'>E</div>
-          </div>
+          </div> */}
         </div>
         <img src={img} alt='' />
       </div>

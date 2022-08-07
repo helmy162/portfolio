@@ -142,14 +142,26 @@
   background-size: cover;
   background-position: center;
   position: absolute;
-  transform: translateY(-210%);
+  transform: translateY(-210%) ;
+  transition: 1s;
+  
 }
+.home-container .logo .hover-show.active .circle:nth-child(1):hover {
+  transition: 1s linear;
+  transform: translateY(-250%);
+}
+
 .home-container .logo .hover-show.active .circle:nth-child(2) {
   position: absolute;
   transform: translateX(150%) translateY(-150%);
   background: url(../props/css.png);
   background-size: cover;
   background-position: center;
+  transition: 1s;
+}
+.home-container .logo .hover-show.active .circle:nth-child(2):hover {
+  transition: 1s linear;
+  transform: translateX(175%) translateY(-175%);
 }
 .home-container .logo .hover-show.active .circle:nth-child(3) {
   position: absolute;
@@ -157,6 +169,11 @@
   background: url(../props/js.png);
   background-size: cover;
   background-position: center;
+  transition: 1s;
+}
+.home-container .logo .hover-show.active .circle:nth-child(3):hover {
+  transition: 1s linear;
+  transform: translateX(250%);
 }
 .home-container .logo .hover-show.active .circle:nth-child(4) {
   position: absolute;
@@ -164,6 +181,11 @@
   background: url(../props/bootstrap.png);
   background-size: cover;
   background-position: center;
+  transition: 1s;
+}
+.home-container .logo .hover-show.active .circle:nth-child(4):hover {
+  transition: 1s linear;
+  transform: translateX(175%) translateY(175%);
 }
 .home-container .logo .hover-show.active .circle:nth-child(5) {
   position: absolute;
@@ -171,6 +193,11 @@
   background: url(../props/react.png);
   background-size: cover;
   background-position: center;
+  transition: 1s;
+}
+.home-container .logo .hover-show.active .circle:nth-child(5):hover {
+  transition: 1s linear;
+  transform: translateY(250%);
 }
 .home-container .logo .hover-show.active .circle:nth-child(6) {
   position: absolute;
@@ -178,6 +205,11 @@
   background: url(../props/photoshop.png);
   background-size: cover;
   background-position: center;
+  transition: 1s;
+}
+.home-container .logo .hover-show.active .circle:nth-child(6):hover {
+  transition: 1s linear;
+  transform: translateX(-175%) translateY(175%);
 }
 .home-container .logo .hover-show.active .circle:nth-child(7) {
   position: absolute;
@@ -185,6 +217,11 @@
   background: url(../props/illustrator.png);
   background-size: cover;
   background-position: center;
+  transition: 1s;
+}
+.home-container .logo .hover-show.active .circle:nth-child(7):hover {
+  transition: 1s linear;
+  transform: translateX(-250%);
 }
 .home-container .logo .hover-show.active .circle:nth-child(8) {
   position: absolute;
@@ -192,6 +229,11 @@
   background: url(../props/indesign.png);
   background-size: cover;
   background-position: center;
+  transition: 1s;
+}
+.home-container .logo .hover-show.active .circle:nth-child(8):hover {
+  transition: 1s linear;
+  transform: translateX(-175%) translateY(-175%);
 }
 
 .home-container img {
