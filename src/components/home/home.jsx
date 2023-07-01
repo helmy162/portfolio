@@ -36,22 +36,14 @@ function Home() {
 
       <h2>
         <span>About Me</span> <br />
-        <span>Graphic Designer</span> <br />
-        <p>
-        ❖ Graphic Designer with 3+ years of professional experience in Logo Designing and Brand Identity. <br></br>
-        ❖ Tech stack: Adobe Photoshop, Adobe Illustrator, Adobe InDesign. <br></br>
-        ❖ Have Experience in Photography and Photo Editing using Adobe Lightroom. 
-        </p>
-        <br></br>
-        <br></br>
+        
         <span>Frontend Developer:</span> <br />
         <p>
         
-        ❖ Frontend Developer with 1+ years of experience in Web Designing and User Interface Development. <br></br>
-        ❖ Tech stack: HTML(5), CSS(3), Bootstrap, JavaScript, jQuery, Reactjs. <br></br>
-        ❖ Experts in responsive Web Design and analyzing and fixing UI bugs quickly. <br></br>
-        ❖ Proficiency in code optimization to improve performance. <br></br>
-        ❖ Have the potential to learn different languages and acquire more skills. <br></br>
+        Experienced software developer with proficiency in front-end web development and expertise in popular
+        frameworks and tools such as Next.js and React. Skilled in project management with a track record of
+        completing projects within budget and on time. Excited to contribute to creating value for end-users in larger
+        projects and learn from experienced developers.
         </p>
       </h2>
 

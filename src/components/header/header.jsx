@@ -8,10 +8,9 @@ function Header() {
         <p>
           I<span>'</span>m
         </p>
-        Mohamed Yasser
+        Mohamed Abdelmaksoud
       </h3>
-      <h2>Graphic Designer</h2>
-      <h2>Front-End Web Developer</h2>
+      <h2>Front-End Developer</h2>
     </div>
   );
 }

@@ -6,10 +6,9 @@ import Contact from "./components/contact/contact";
 import Navbar from "./components/nav/nav";
 import Qualifications from "./components/qualifications/qualifications";
 import Projects1 from "./components/projects1/projects1";
-import Projects2 from "./components/projects2/projects2";
+import Experiences from "./components/experiences/experiences";
 import Footer from "./components/footer/footer";
 import React from 'react';
-import Music from './components/music/music';
 
 function WebContent() {
   return (
@@ -20,12 +19,11 @@ function WebContent() {
       <Navbar />
       <Home />
       <About />
-      <About2 />
-      <Projects1 />
-      <Projects2 />
+      {/* <About2 /> */}
+      {/* <Projects1 /> */}
+      <Experiences />
       <Contact />
       <Footer />
-      <Music />
     </>
   );
 }

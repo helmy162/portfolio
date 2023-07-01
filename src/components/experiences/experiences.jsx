@@ -1,13 +1,13 @@
-import "./projects2.css";
+import "./experiences.css";
 import React from 'react';
 import { AiOutlineBehance } from "react-icons/ai";
 import {Container , Row, Col} from 'react-bootstrap';
 
 
-const Projects2 = () => {
+const Experiences = () => {
   return (
-    <div id="projects2" className="container members-container">
-      <h1 className="member-txt">GRAPHIC DESIGN PROJECTS</h1>
+    <div id="experiences" className="container members-container">
+      <h1 className="member-txt"> Professional Experience</h1>
       <Container className="member member-1">
         <Row style={{"width" : "100%"}}>
           <Col lg={{ span: 3, offset: 0 }} md={{ span: 2, offset: 0 }} sm={{ span: 3, offset: 0 }} xs={{ span: 3, offset: 0 }}>
@@ -133,45 +133,8 @@ const Projects2 = () => {
           </Col>
         </Row>
       </Container>
-{/* 
-      <div className="member member-2">
-        <div className="member-img2"></div>
-        <div className="member-info2">
-          <h1 className="name">Plebits Logo</h1>
-          <h3 className="position">Plebits</h3>
-          <h4 className="about">
-            Plebits is an online tech startup that creates digital projects for businesses. I was responsible for designing their logo in a modern way with the tech magic touch.
-            autem eius!
-          </h4>
-          <a href="https://www.behance.net/gallery/145228171/Plebits-Logo" className="contact-member">
-            <span>Behance</span>
-          </a>
-          <a href="https://plebits.com/" className="contact-member2">
-              <span>Website</span>
-          </a>
-        </div>
-      </div> */}
-
-      {/* <div className="member member-3">
-        <div className="member-img3"></div>
-        <div className="member-info2">
-          <h1 className="name">Turbosmurfs Logo and Media Posts</h1>
-          <h3 className="position">turbosmurfs.gg</h3>
-          <h4 className="about">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            maiores harum laborum vero recusandae? Cumque nam facere aspernatur
-            autem eius!
-          </h4>
-          <a href="https://www.behance.net/gallery/145260459/Turbosmurfs" className="contact-member">
-            <span>Behance</span>
-          </a>
-          <a href="https://turbosmurfs.gg/" className="contact-member2">
-              <span>Website</span>
-          </a>
-        </div>
-      </div> */}
     </div>
   );
 };
 
-export default Projects2;
+export default Experiences;
